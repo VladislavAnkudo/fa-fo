@@ -2,7 +2,9 @@
 
 $color-red: #F54748;
 $color-black: #353535;
-
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Montserrat', sans-serif;
     font-size: 20px; 
@@ -403,35 +405,30 @@ body{
 }
 .whopper:hover{
     transform: scale(1.05);
-   
 }
 .pizza1 {
     transition: transform 1s;
 }
 .pizza1:hover{
     transform: scale(1.05);
-   
 }
 .philadelphia {
     transition: transform 1s;
 }
 .philadelphia:hover{
     transform: scale(1.05);
-   
 }
 .donut {
     transition: transform 1s;
 }
 .donut:hover{
     transform: scale(1.05);
-   
 }
 .steak {
     transition: transform 1s;
 }
 .steak:hover{
     transform: scale(1.05);
-   
 }
 .menu__right-title{
     font-weight: 600;
@@ -623,7 +620,7 @@ body{
 .footer__wrapper{
     display: flex;
     flex-wrap: wrap;
-    gap: 140px;
+    gap: 128px;
 }
 .footer{
     margin-bottom: 50px;

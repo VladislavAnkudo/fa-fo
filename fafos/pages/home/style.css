@@ -1,5 +1,9 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
@@ -678,7 +682,7 @@ body {
 .footer__wrapper {
   display: flex;
   flex-wrap: wrap;
-  gap: 140px;
+  gap: 128px;
 }
 
 .footer {
