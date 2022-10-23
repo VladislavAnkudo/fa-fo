@@ -1,0 +1,955 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+
+$color-red: #F54748;
+$color-black: #353535;
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px; 
+    color: $color-black; 
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+.wrapper{
+    max-width: 1580px;
+    margin: 0 auto;
+}
+.header__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+    margin-left: auto;
+    margin-top: 22.4px;
+    .header__nav{
+       margin: 0 auto;
+      
+        .header__list{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 60px;
+            align-items: center;
+            
+            .header__link-first{
+                color: $color-red;
+            }
+
+            .header_item{
+                list-style-type: none;
+            }
+            .header_link{
+                text-decoration: none;
+                color: $color-black; 
+               
+                &:hover{
+                    color: $color-red;
+                }
+            }       
+        }
+    }
+    .header__nav-right{
+        .header__list-right{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 43px;
+            list-style-type: none;
+
+            .header_button{
+                width: 100px;
+                height: 45px;
+                border: 0;
+                color: white;
+                background: $color-red;
+                border-radius: 25px;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 20px;
+                margin: 0 auto;
+               
+                &:hover{
+                    cursor: pointer;
+                    background: darken( $color-red ,  15%);
+                }
+                .header_login{
+                   position: relative;
+                   top: 2px;
+                   padding-right: 5px;
+                }
+            }
+        }
+    }
+}
+/* header style end  */
+
+/* discounts style start  */
+.discounts{
+    background: url(../../assets/menu/images/discounts.png) no-repeat top;
+}
+.discounts__buttons{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.discounts__button{
+    font-size: 24px;
+    line-height: 60px;
+    text-transform: capitalize;
+}
+.discounts__button:first-child{
+    margin-top: 39.5px;
+}
+.discounts__button{
+    border: none;
+    background: none;
+    text-align: left;
+    padding-left: 68px;
+    &:hover{
+        cursor: pointer;
+        color: $color-red;
+        border-radius: 50px;
+    }
+}
+.discounts__button-text{
+    text-decoration: none;
+    color: $color-black;
+}
+.button-one{
+    background-image: url(../../assets/menu/icons/burger.png);
+    background-repeat: no-repeat;
+    background-position: 1%;
+}
+.button-two{
+    background-image: url(../../assets/menu/icons/pizza.png);
+    background-repeat: no-repeat;
+    background-position: 1%;
+}
+.button-three{
+    background-image: url(../../assets/menu/icons/Japanese.png);
+    background-repeat: no-repeat;
+    background-position: 1%;
+}
+.button-four{
+    background-image: url(../../assets/menu/icons/sweets.png);
+    background-repeat: no-repeat;
+    background-position: 1%;
+}
+.button-five{
+    background-image: url(../../assets/menu/icons/meat.png);
+    background-repeat: no-repeat;
+    background-position: 1%;
+}
+.button-six{
+    background-image: url(../../assets/menu/icons/cocktails.png);
+    background-repeat: no-repeat;
+    background-position: 1%;
+}
+.discounts__wrapper{
+    max-width: 1300px;
+    margin-left: auto;
+    height: 550px;  //мб посмореть можно пофиксить
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.discounts__title{
+    font-size: 48px;
+    line-height: 60px;
+    text-transform: capitalize;
+    margin-top: 33.5px;
+}
+.discounts__button-sale{
+    width: 100%;
+    height: 90px;
+    text-align: left;
+    background: #F2F2F0;
+    border-radius: 35px;
+    border: none;
+    display: flex;
+    align-items: center;
+
+    &:hover{
+        background: darken( #F2F2F0, 15%);
+        cursor: pointer;
+    }
+}
+.discounts__sale{
+    padding-left: 38px;
+    padding-right: 18px;
+}
+.discounts__arrow{
+    margin-left: auto;
+    padding-right: 26.57px;
+}
+/* discounts style end  */
+
+/* eat style start  */
+.eat__wrapper{
+    max-width: 1280px;
+    margin-left: auto;
+}
+.burger__arrows{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.burger__title{
+    font-size: 48px;
+    line-height: 60px;
+    text-transform: capitalize;
+}
+.burger__arrow-left{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #FAFAFA;
+
+    &:hover{
+        background: $color-red;
+        cursor: pointer;
+    }
+}
+.burger__arrow-right{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #FAFAFA;
+    margin-left: 20px;
+    &:hover{
+        background: $color-red;
+        cursor: pointer;
+    }
+}
+.arrows{
+    display: block;
+    margin:  0 auto;
+    padding-top: 21px;
+}
+.burger__arrow{
+    display: flex;
+    flex-wrap: wrap;
+}
+.burger{
+    margin-top: 17px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    .eat__mac{
+        display: flex;
+        align-items: flex-end;
+        width: 380px;
+        height: 225px;
+        background: url(../../assets/menu/images/mac.png) no-repeat ;
+        font-size: 24px;
+        text-transform: capitalize;
+        .eat__mac-wrap{
+            padding-left: 40px;
+            padding-bottom: 30px;
+           
+        }
+        .eat__link{
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+    }
+    .eat__burger {
+        transition: transform 1s;
+    }
+    .eat__burger:hover{
+        transform: scale(1.05);
+    }
+    .eat__bk{
+        display: flex;
+        align-items: flex-end;
+        width: 280px;
+        height: 225px;
+        background: url(../../assets/menu/images/bk.png) no-repeat;
+        font-size: 24px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    
+        .eat__mac-wrap{
+            padding-left: 40px;
+            padding-bottom: 30px;
+        }
+        .eat__link{
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+    }
+    .eat__kfc{
+        display: flex;
+        align-items: flex-end;
+        width: 280px;
+        height: 225px;
+        background: url(../../assets/menu/images/kfc.png) no-repeat;
+        font-size: 24px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    
+        .eat__mac-wrap{
+            padding-left: 40px;
+            padding-bottom: 30px;
+        }
+        .eat__link{
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+    }
+    .eat__taco{
+        display: flex;
+        align-items: flex-end;
+        width: 280px;
+        height: 225px;
+        background: url(../../assets/menu/images/taco.png) no-repeat;
+        font-size: 24px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    
+        .eat__mac-wrap{
+            padding-left: 40px;
+            padding-bottom: 30px;
+        }
+        .eat__link{
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+    }
+}
+.pizza__aroows{
+    margin-top: 45px;
+}
+.pizza{
+    margin-top: 17px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    .eat__dodo{
+        display: flex;
+        align-items: flex-end;
+        width: 580px;
+        height: 225px;
+        background: url(../../assets/menu/images/dodo.png) no-repeat ;
+        font-size: 24px;
+        text-transform: capitalize;
+        .eat__mac-wrap{
+            padding-left: 40px;
+            padding-bottom: 30px;
+           
+        }
+        .eat__link{
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+    }
+    .eat__burger {
+        transition: transform 1s;
+    }
+    .eat__burger:hover{
+        transform: scale(1.05);
+    }
+    .eat__dominos{
+        display: flex;
+        align-items: flex-end;
+        width: 680px;
+        height: 225px;
+        background: url(../../assets/menu/images/dominos.png) no-repeat;
+        font-size: 24px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    
+        .eat__mac-wrap{
+            padding-left: 40px;
+            padding-bottom: 30px;
+        }
+        .eat__link{
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+    }
+}
+.Japanese{
+    margin-top: 17px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    .eat__TokiNY{
+        display: flex;
+        align-items: flex-end;
+        width: 380px;
+        height: 225px;
+        background: url(../../assets/menu/images/tokiny.png) no-repeat ;
+        font-size: 24px;
+        text-transform: capitalize;
+        .eat__mac-wrap{
+            padding-left: 40px;
+            padding-bottom: 30px;
+           
+        }
+        .eat__link{
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+    }
+    .eat__burger {
+        transition: transform 1s;
+    }
+    .eat__burger:hover{
+        transform: scale(1.05);
+    }
+    .eat__ewoki{
+        display: flex;
+        align-items: flex-end;
+        width: 280px;
+        height: 225px;
+        background: url(../../assets/menu/images/Ewoki.png) no-repeat;
+        font-size: 24px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    
+        .eat__mac-wrap{
+            padding-left: 40px;
+            padding-bottom: 30px;
+        }
+        .eat__link{
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+    }
+    .eat__soup{
+        display: flex;
+        align-items: flex-end;
+        width: 280px;
+        height: 225px;
+        background: url(../../assets/menu/images/Soup.png) no-repeat;
+        font-size: 24px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    
+        .eat__mac-wrap{
+            padding-left: 40px;
+            padding-bottom: 30px;
+        }
+        .eat__link{
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+    }
+    .eat__ronin{
+        display: flex;
+        align-items: flex-end;
+        width: 280px;
+        height: 225px;
+        background: url(../../assets/menu/images/RONIN.png) no-repeat;
+        font-size: 24px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    
+        .eat__mac-wrap{
+            padding-left: 40px;
+            padding-bottom: 30px;
+        }
+        .eat__link{
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+    }
+    .eat__masu{
+        display: flex;
+        align-items: flex-end;
+        width: 380px;
+        height: 225px;
+        background: url(../../assets/menu/images/masu.png) no-repeat ;
+        font-size: 24px;
+        text-transform: capitalize;
+        .eat__mac-wrap{
+            padding-left: 40px;
+            padding-bottom: 30px;
+           
+        }
+        .eat__link{
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+    }
+    .eat__miyako{
+        display: flex;
+        align-items: flex-end;
+        width: 380px;
+        height: 225px;
+        background: url(../../assets/menu/images/miyako.png) no-repeat ;
+        font-size: 24px;
+        text-transform: capitalize;
+        .eat__mac-wrap{
+            padding-left: 40px;
+            padding-bottom: 30px;
+           
+        }
+        .eat__link{
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+    }
+    .eat__soho{
+        display: flex;
+        align-items: flex-end;
+        width: 480px;
+        height: 225px;
+        background: url(../../assets/menu/images/soho.png) no-repeat ;
+        font-size: 24px;
+        text-transform: capitalize;
+        .eat__mac-wrap{
+            padding-left: 40px;
+            padding-bottom: 30px;
+           
+        }
+        .eat__link{
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+    }
+}
+
+.sweets{
+    margin-top: 17px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    .eat__vanilla{
+        display: flex;
+        align-items: flex-end;
+        width: 380px;
+        height: 225px;
+        background: url(../../assets/menu/images/Vanilla.png) no-repeat ;
+        font-size: 24px;
+        text-transform: capitalize;
+        .eat__mac-wrap{
+            padding-left: 40px;
+            padding-bottom: 30px;
+           
+        }
+        .eat__link{
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+    }
+    .eat__burger {
+        transition: transform 1s;
+    }
+    .eat__burger:hover{
+        transform: scale(1.05);
+    }
+    .eat__cupcake{
+        display: flex;
+        align-items: flex-end;
+        width: 380px;
+        height: 225px;
+        background: url(../../assets/menu/images/Cupcake.png) no-repeat;
+        font-size: 24px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    
+        .eat__mac-wrap{
+            padding-left: 40px;
+            padding-bottom: 30px;
+        }
+        .eat__link{
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+    }
+    .eat__recipe{
+        display: flex;
+        align-items: flex-end;
+        width: 480px;
+        height: 225px;
+        background: url(../../assets/menu/images/recipe.png) no-repeat;
+        font-size: 24px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    
+        .eat__mac-wrap{
+            padding-left: 40px;
+            padding-bottom: 30px;
+        }
+        .eat__link{
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+    }
+    .eat__alcreme{
+        display: flex;
+        align-items: flex-end;
+        width: 380px;
+        height: 225px;
+        background: url(../../assets/menu/images/Alcreme.png) no-repeat;
+        font-size: 24px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    
+        .eat__mac-wrap{
+            padding-left: 40px;
+            padding-bottom: 30px;
+        }
+        .eat__link{
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+    }
+    .eat__rolln{
+        display: flex;
+        align-items: flex-end;
+        width: 280px;
+        height: 225px;
+        background: url(../../assets/menu/images/Rolln.png) no-repeat ;
+        font-size: 24px;
+        text-transform: capitalize;
+        .eat__mac-wrap{
+            padding-left: 40px;
+            padding-bottom: 30px;
+           
+        }
+        .eat__link{
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+    }
+    .eat__marconi{
+        display: flex;
+        align-items: flex-end;
+        width: 280px;
+        height: 225px;
+        background: url(../../assets/menu/images/Marconi.png) no-repeat ;
+        font-size: 24px;
+        text-transform: capitalize;
+        .eat__mac-wrap{
+            padding-left: 40px;
+            padding-bottom: 30px;
+           
+        }
+        .eat__link{
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+    }
+    .eat__cafe{
+        display: flex;
+        align-items: flex-end;
+        width: 280px;
+        height: 225px;
+        background: url(../../assets/menu/images/Cafe.png) no-repeat ;
+        font-size: 24px;
+        text-transform: capitalize;
+        .eat__mac-wrap{
+            padding-left: 40px;
+            padding-bottom: 30px;
+           
+        }
+        .eat__link{
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+    }
+}
+.meat{
+    margin-top: 17px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    .eat__meat{
+        display: flex;
+        align-items: flex-end;
+        width: 380px;
+        height: 225px;
+        background: url(../../assets/menu/images/Meat.png) no-repeat ;
+        font-size: 24px;
+        text-transform: capitalize;
+        .eat__mac-wrap{
+            padding-left: 40px;
+            padding-bottom: 30px;
+           
+        }
+        .eat__link{
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+    }
+    .eat__burger {
+        transition: transform 1s;
+    }
+    .eat__burger:hover{
+        transform: scale(1.05);
+    }
+    .eat__chicken{
+        display: flex;
+        align-items: flex-end;
+        width: 380px;
+        height: 225px;
+        background: url(../../assets/menu/images/chicken.png) no-repeat;
+        font-size: 24px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    
+        .eat__mac-wrap{
+            padding-left: 40px;
+            padding-bottom: 30px;
+        }
+        .eat__link{
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+    }
+    .eat__panski{
+        display: flex;
+        align-items: flex-end;
+        width: 480px;
+        height: 225px;
+        background: url(../../assets/menu/images/Panski.png) no-repeat;
+        font-size: 24px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    
+        .eat__mac-wrap{
+            padding-left: 40px;
+            padding-bottom: 30px;
+        }
+        .eat__link{
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+    }
+    .eat__broward{
+        display: flex;
+        align-items: flex-end;
+        width: 180px;
+        height: 225px;
+        background: url(../../assets/menu/images/Broward.png) no-repeat;
+        font-size: 24px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    
+        .eat__mac-wrap{
+            padding-left: 40px;
+            padding-bottom: 30px;
+        }
+        .eat__link{
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+    }
+    .eat__fish{
+        display: flex;
+        align-items: flex-end;
+        width: 380px;
+        height: 225px;
+        background: url(../../assets/menu/images/fish.png) no-repeat ;
+        font-size: 24px;
+        text-transform: capitalize;
+        .eat__mac-wrap{
+            padding-left: 40px;
+            padding-bottom: 30px;
+           
+        }
+        .eat__link{
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+    }
+    .eat__fm{
+        display: flex;
+        align-items: flex-end;
+        width: 480px;
+        height: 225px;
+        background: url(../../assets/menu/images/fm.png) no-repeat ;
+        font-size: 24px;
+        text-transform: capitalize;
+        .eat__mac-wrap{
+            padding-left: 40px;
+            padding-bottom: 30px;
+           
+        }
+        .eat__link{
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+    }
+    .eat__bunchery{
+        display: flex;
+        align-items: flex-end;
+        width: 180px;
+        height: 225px;
+        background: url(../../assets/menu/images/Bunchery.png) no-repeat ;
+        font-size: 24px;
+        text-transform: capitalize;
+        .eat__mac-wrap{
+            padding-left: 40px;
+            padding-bottom: 30px;
+           
+        }
+        .eat__link{
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+    }
+}
+.cocktails{
+    margin-top: 17px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    .eat__kinley{
+        display: flex;
+        align-items: flex-end;
+        width: 380px;
+        height: 225px;
+        background: url(../../assets/menu/images/kinley.png) no-repeat ;
+        font-size: 24px;
+        text-transform: capitalize;
+        .eat__mac-wrap{
+            padding-left: 40px;
+            padding-bottom: 30px;
+           
+        }
+        .eat__link{
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+    }
+    .eat__burger {
+        transition: transform 1s;
+    }
+    .eat__burger:hover{
+        transform: scale(1.05);
+    }
+    .eat__coca{
+        display: flex;
+        align-items: flex-end;
+        width: 180px;
+        height: 225px;
+        background: url(../../assets/menu/images/coca.png) no-repeat;
+        font-size: 24px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    
+        .eat__mac-wrap{
+            padding-left: 40px;
+            padding-bottom: 30px;
+        }
+        .eat__link{
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+    }
+    .eat__fanta{
+        display: flex;
+        align-items: flex-end;
+        width: 480px;
+        height: 225px;
+        background: url(../../assets/menu/images/fanta.png) no-repeat;
+        font-size: 24px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    
+        .eat__mac-wrap{
+            padding-left: 40px;
+            padding-bottom: 30px;
+        }
+        .eat__link{
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+    }
+    .eat__pepsi{
+        display: flex;
+        align-items: flex-end;
+        width: 180px;
+        height: 225px;
+        background: url(../../assets/menu/images/pepsi.png) no-repeat;
+        font-size: 24px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    
+        .eat__mac-wrap{
+            padding-left: 40px;
+            padding-bottom: 30px;
+        }
+        .eat__link{
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+    }
+}
+/* eat style end  */
+
+/* footer style start  */
+.footer{
+    margin-top: 75px;
+    margin-bottom: 50px;
+}
+.footer__title{
+    max-width: 372px;
+    margin-top: 32px;
+}
+.footer__list{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    gap: 45px;
+    margin-top: 52px;
+    margin-bottom: 0;
+}
+.footer__list-fafo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-left: 0;
+    margin: 0;
+
+    &:hover{
+        color: red;
+    }
+}
+.footer__item-fafo{
+    list-style: none;
+    
+    .footer__links-fafo{
+        text-decoration: none;
+        color: $color-black;
+        line-height: 30px;
+    }
+    &:first-child{
+        margin-bottom: 32px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 30px;
+        color: #000000;
+    }
+    &:nth-child(2), &:nth-child(3){
+        margin-bottom: 30px;
+    }
+    &:first-child a:hover{
+        color: lighten( #000,  45%);
+    }
+    &:nth-child(2) a:hover,&:nth-child(3) a:hover,&:nth-child(4) a:hover{
+        color: $color-red;
+    }
+}
+.footer__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 128px;
+}
