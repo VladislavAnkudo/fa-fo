@@ -76,6 +76,26 @@ body {
   padding-right: 5px;
 }
 
+.nav-right__search:hover > .nav-right__search-txt {
+  width: 240px;
+  border-radius: 50px;
+  background: #F9F9F9;
+  padding-left: 5px;
+}
+
+.nav-right__search-txt {
+  position: absolute;
+  right: 21%;
+  border: none;
+  background: none;
+  outline: none;
+  color: #353535;
+  font-size: 20px;
+  transition: 0.4s;
+  line-height: 27px;
+  width: 0;
+}
+
 /* header style end  */
 /* contact style start  */
 .contact {

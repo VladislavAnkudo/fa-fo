@@ -37,9 +37,12 @@
                 <div class="header__nav-right">
                     <ul class="header__list-right">
                         <li class="header_item">
-                            <a href="#!" class="header_link">
-                                <img src="../../assets/icons/search.png" alt="search">
-                            </a>
+                            <div class = "nav-right__search">
+                                <input class="nav-right__search-txt" type="text" name="" placeholder="type to search ">
+                                <a href="#!" class="header_link">
+                                    <img src="../../assets/icons/search.png" alt="search">
+                                </a>
+                            </div>
                         </li>
                         <li class="header_item">
                             <a href="../../pages/Basket/index.html" class="header_link">
@@ -115,8 +118,8 @@
                 <div class="menu__arrow">
                     <div class="menu__subtitle">Menu That alweys make you fall in love</div>
                     <div class="menu_arrows">
-                        <div class="menu__arrow-left"><img src="../../assets/icons/arrow-left.png" class="arrows" alt="left"></div>
-                        <div class="menu__arrow-right"><img src="../../assets/icons/arrow-right.png" class="arrows" alt="right"></div>
+                        <div class="menu__arrow-left menu__prev"><img src="../../assets/icons/arrow-left.png" class="arrows" alt="left"></div>
+                        <div class="menu__arrow-right menu__next"><img src="../../assets/icons/arrow-right.png" class="arrows" alt="right"></div>
                     </div>
                 </div>
                 <div class="menu__pizza">
@@ -131,128 +134,263 @@
                         </ul>
                     </div>
                     <div class="line"></div>
-                    <div class="menu__right">
+                    <div class="menu__right">  <!-- slider wrapper -->
                         <div class="target target-1 ">
-                            <div class="menu__cover">
-                                <div class="whopper">
-                                    <div class="menu__one">
-                                        <div class="menu__right-title">whopper</div>
-                                        <div class="menu__price"><span class="menu__price-dollar">$</span> 3.20</div>
-                                        <div class="menu__right-subtitle"><a href="#!" class="menu__subtitle-link">Order now <img src="../../assets/icons/arrow-right(white).png" class="arrow-right-white" alt="arrow"></a> </div>
+                            <div class="menu__cover"> 
+                                <div class="menu__burger"><!-- slide -->
+                                    <div class="whopper">
+                                        <div class="menu__one">
+                                            <div class="menu__right-title">whopper</div>
+                                            <div class="menu__price"><span class="menu__price-dollar">$</span> 3.20</div>
+                                            <div class="menu__right-subtitle"><a href="#!" class="menu__subtitle-link">Order now <img src="../../assets/icons/arrow-right(white).png" class="arrow-right-white" alt="arrow"></a> </div>
+                                        </div>
+                                    </div>
+                                    <div class="whopper pablo">
+                                        <div class="menu__one">
+                                            <div class="menu__right-title">Pablo</div>
+                                            <div class="menu__price"><span class="menu__price-dollar">$</span> 4.43</div>
+                                            <div class="menu__right-subtitle"><a href="#!" class="menu__subtitle-link">Order now <img src="../../assets/icons/arrow-right(white).png" class="arrow-right-white" alt="arrow"></a> </div>
+                                        </div>
+                                    </div>
+                                    <div class="whopper tasty">
+                                        <div class="menu__one">
+                                            <div class="menu__right-title">Tasty</div>
+                                            <div class="menu__price"><span class="menu__price-dollar">$</span> 3.99</div>
+                                            <div class="menu__right-subtitle"><a href="#!" class="menu__subtitle-link">Order now <img src="../../assets/icons/arrow-right(white).png" class="arrow-right-white" alt="arrow"></a> </div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="whopper pablo">
-                                    <div class="menu__one">
-                                        <div class="menu__right-title">Pablo</div>
-                                        <div class="menu__price"><span class="menu__price-dollar">$</span> 4.43</div>
-                                        <div class="menu__right-subtitle"><a href="#!" class="menu__subtitle-link">Order now <img src="../../assets/icons/arrow-right(white).png" class="arrow-right-white" alt="arrow"></a> </div>
+                            </div>
+                            <div class="menu__cover"> 
+                                <div class="menu__burger"> <!-- slide -->
+                                    <div class="whopper steak__burger">
+                                        <div class="menu__one">
+                                            <div class="menu__right-title">Steak</div>
+                                            <div class="menu__price"><span class="menu__price-dollar">$</span> 3.20</div>
+                                            <div class="menu__right-subtitle"><a href="#!" class="menu__subtitle-link">Order now <img src="../../assets/icons/arrow-right(white).png" class="arrow-right-white" alt="arrow"></a> </div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="whopper tasty">
-                                    <div class="menu__one">
-                                        <div class="menu__right-title">Tasty</div>
-                                        <div class="menu__price"><span class="menu__price-dollar">$</span> 3.99</div>
-                                        <div class="menu__right-subtitle"><a href="#!" class="menu__subtitle-link">Order now <img src="../../assets/icons/arrow-right(white).png" class="arrow-right-white" alt="arrow"></a> </div>
+                                    <div class="whopper meat">
+                                        <div class="menu__one">
+                                            <div class="menu__right-title">Meat</div>
+                                            <div class="menu__price"><span class="menu__price-dollar">$</span> 4.43</div>
+                                            <div class="menu__right-subtitle"><a href="#!" class="menu__subtitle-link">Order now <img src="../../assets/icons/arrow-right(white).png" class="arrow-right-white" alt="arrow"></a> </div>
+                                        </div>
+                                    </div>
+                                    <div class="whopper cheese">
+                                        <div class="menu__one">
+                                            <div class="menu__right-title">Cheese</div>
+                                            <div class="menu__price"><span class="menu__price-dollar">$</span> 3.99</div>
+                                            <div class="menu__right-subtitle"><a href="#!" class="menu__subtitle-link">Order now <img src="../../assets/icons/arrow-right(white).png" class="arrow-right-white" alt="arrow"></a> </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="target target-2">
                             <div class="menu__cover">
-                                <div class="pizza1">
-                                    <div class="menu__one">
-                                        <div class="menu__right-title">italian Pizza</div>
-                                        <div class="menu__price"><span class="menu__price-dollar">$</span> 7.49</div>
-                                        <div class="menu__right-subtitle"><a href="#!" class="menu__subtitle-link">Order now <img src="../../assets/icons/arrow-right(white).png" class="arrow-right-white" alt="arrow"></a> </div>
+                               <div class="menu__pizza-slide">
+                                    <div class="pizza1">
+                                        <div class="menu__one">
+                                            <div class="menu__right-title">italian Pizza</div>
+                                            <div class="menu__price"><span class="menu__price-dollar">$</span> 7.49</div>
+                                            <div class="menu__right-subtitle"><a href="#!" class="menu__subtitle-link">Order now <img src="../../assets/icons/arrow-right(white).png" class="arrow-right-white" alt="arrow"></a> </div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="pizza1 pizza2">
-                                    <div class="menu__one">
-                                        <div class="menu__right-title">bacon Pizza</div>
-                                        <div class="menu__price"><span class="menu__price-dollar">$</span> 8.49</div>
-                                        <div class="menu__right-subtitle"><a href="#!" class="menu__subtitle-link">Order now <img src="../../assets/icons/arrow-right(white).png" class="arrow-right-white" alt="arrow"></a> </div>
+                                    <div class="pizza1 pizza2">
+                                        <div class="menu__one">
+                                            <div class="menu__right-title">bacon Pizza</div>
+                                            <div class="menu__price"><span class="menu__price-dollar">$</span> 8.49</div>
+                                            <div class="menu__right-subtitle"><a href="#!" class="menu__subtitle-link">Order now <img src="../../assets/icons/arrow-right(white).png" class="arrow-right-white" alt="arrow"></a> </div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="pizza1 pizza3">
-                                    <div class="menu__one">
-                                        <div class="menu__right-title">pasta Pizza</div>
-                                        <div class="menu__price"><span class="menu__price-dollar">$</span> 6.99</div>
-                                        <div class="menu__right-subtitle"><a href="#!" class="menu__subtitle-link">Order now <img src="../../assets/icons/arrow-right(white).png" class="arrow-right-white" alt="arrow"></a> </div>
+                                    <div class="pizza1 pizza3">
+                                        <div class="menu__one">
+                                            <div class="menu__right-title">pasta Pizza</div>
+                                            <div class="menu__price"><span class="menu__price-dollar">$</span> 6.99</div>
+                                            <div class="menu__right-subtitle"><a href="#!" class="menu__subtitle-link">Order now <img src="../../assets/icons/arrow-right(white).png" class="arrow-right-white" alt="arrow"></a> </div>
+                                        </div>
+                                    </div>
+                               </div>
+                            </div>
+                            <div class="menu__cover">
+                                <div class="menu__pizza-slide">
+                                    <div class="pizza1 romana">
+                                        <div class="menu__one">
+                                            <div class="menu__right-title">Romana</div>
+                                            <div class="menu__price"><span class="menu__price-dollar">$</span> 7.49</div>
+                                            <div class="menu__right-subtitle"><a href="#!" class="menu__subtitle-link">Order now <img src="../../assets/icons/arrow-right(white).png" class="arrow-right-white" alt="arrow"></a> </div>
+                                        </div>
+                                    </div>
+                                    <div class="pizza1 fritta">
+                                        <div class="menu__one">
+                                            <div class="menu__right-title">Fritta</div>
+                                            <div class="menu__price"><span class="menu__price-dollar">$</span> 8.49</div>
+                                            <div class="menu__right-subtitle"><a href="#!" class="menu__subtitle-link">Order now <img src="../../assets/icons/arrow-right(white).png" class="arrow-right-white" alt="arrow"></a> </div>
+                                        </div>
+                                    </div>
+                                    <div class="pizza1 palla">
+                                        <div class="menu__one">
+                                            <div class="menu__right-title">Pizza All Palla</div>
+                                            <div class="menu__price"><span class="menu__price-dollar">$</span> 6.99</div>
+                                            <div class="menu__right-subtitle"><a href="#!" class="menu__subtitle-link">Order now <img src="../../assets/icons/arrow-right(white).png" class="arrow-right-white" alt="arrow"></a> </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="target target-3">
                             <div class="menu__cover">
-                                <div class="philadelphia">
-                                    <div class="menu__one">
-                                        <div class="menu__right-title">Philadelphia</div>
-                                        <div class="menu__price"><span class="menu__price-dollar">$</span> 5.50</div>
-                                        <div class="menu__right-subtitle"><a href="#!" class="menu__subtitle-link">Order now <img src="../../assets/icons/arrow-right(white).png" class="arrow-right-white" alt="arrow"></a> </div>
+                                <div class="menu__japanese">
+                                    <div class="philadelphia">
+                                        <div class="menu__one">
+                                            <div class="menu__right-title">Philadelphia</div>
+                                            <div class="menu__price"><span class="menu__price-dollar">$</span> 5.50</div>
+                                            <div class="menu__right-subtitle"><a href="#!" class="menu__subtitle-link">Order now <img src="../../assets/icons/arrow-right(white).png" class="arrow-right-white" alt="arrow"></a> </div>
+                                        </div>
+                                    </div>
+                                    <div class="philadelphia california">
+                                        <div class="menu__one">
+                                            <div class="menu__right-title">california</div>
+                                            <div class="menu__price"><span class="menu__price-dollar">$</span> 4.99</div>
+                                            <div class="menu__right-subtitle"><a href="#!" class="menu__subtitle-link">Order now <img src="../../assets/icons/arrow-right(white).png" class="arrow-right-white" alt="arrow"></a> </div>
+                                        </div>
+                                    </div>
+                                    <div class="philadelphia makizushi">
+                                        <div class="menu__one">
+                                            <div class="menu__right-title">makizushi</div>
+                                            <div class="menu__price"><span class="menu__price-dollar">$</span> 6.20</div>
+                                            <div class="menu__right-subtitle"><a href="#!" class="menu__subtitle-link">Order now <img src="../../assets/icons/arrow-right(white).png" class="arrow-right-white" alt="arrow"></a> </div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="philadelphia california">
-                                    <div class="menu__one">
-                                        <div class="menu__right-title">california</div>
-                                        <div class="menu__price"><span class="menu__price-dollar">$</span> 4.99</div>
-                                        <div class="menu__right-subtitle"><a href="#!" class="menu__subtitle-link">Order now <img src="../../assets/icons/arrow-right(white).png" class="arrow-right-white" alt="arrow"></a> </div>
+                            </div>
+                            <div class="menu__cover">
+                                <div class="menu__japanese">
+                                    <div class="philadelphia nigirizushi">
+                                        <div class="menu__one">
+                                            <div class="menu__right-title">nigirizushi</div>
+                                            <div class="menu__price"><span class="menu__price-dollar">$</span> 5.50</div>
+                                            <div class="menu__right-subtitle"><a href="#!" class="menu__subtitle-link">Order now <img src="../../assets/icons/arrow-right(white).png" class="arrow-right-white" alt="arrow"></a> </div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="philadelphia makizushi">
-                                    <div class="menu__one">
-                                        <div class="menu__right-title">makizushi</div>
-                                        <div class="menu__price"><span class="menu__price-dollar">$</span> 6.20</div>
-                                        <div class="menu__right-subtitle"><a href="#!" class="menu__subtitle-link">Order now <img src="../../assets/icons/arrow-right(white).png" class="arrow-right-white" alt="arrow"></a> </div>
+                                    <div class="philadelphia gunkan">
+                                        <div class="menu__one">
+                                            <div class="menu__right-title">gunkan-maki</div>
+                                            <div class="menu__price"><span class="menu__price-dollar">$</span> 4.99</div>
+                                            <div class="menu__right-subtitle"><a href="#!" class="menu__subtitle-link">Order now <img src="../../assets/icons/arrow-right(white).png" class="arrow-right-white" alt="arrow"></a> </div>
+                                        </div>
+                                    </div>
+                                    <div class="philadelphia hosomaki">
+                                        <div class="menu__one">
+                                            <div class="menu__right-title">hosomaki</div>
+                                            <div class="menu__price"><span class="menu__price-dollar">$</span> 6.20</div>
+                                            <div class="menu__right-subtitle"><a href="#!" class="menu__subtitle-link">Order now <img src="../../assets/icons/arrow-right(white).png" class="arrow-right-white" alt="arrow"></a> </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>                                
                         </div>
                         <div class="target target-4">
-                            <div class="menu__cover">
-                                <div class="donut cupcake">
-                                    <div class="menu__one">
-                                        <div class="menu__right-title">cupcake</div>
-                                        <div class="menu__price"><span class="menu__price-dollar">$</span> 2.20</div>
-                                        <div class="menu__right-subtitle"><a href="#!" class="menu__subtitle-link">Order now <img src="../../assets/icons/arrow-right(white).png" class="arrow-right-white" alt="arrow"></a> </div>
+                            <div class="menu__cover"> <!-- slider wrapper -->
+                               <div class="menu__sweets">
+                                    <div class="donut cupcake">
+                                        <div class="menu__one">
+                                            <div class="menu__right-title">cupcake</div>
+                                            <div class="menu__price"><span class="menu__price-dollar">$</span> 2.20</div>
+                                            <div class="menu__right-subtitle"><a href="#!" class="menu__subtitle-link">Order now <img src="../../assets/icons/arrow-right(white).png" class="arrow-right-white" alt="arrow"></a> </div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="donut ">
-                                    <div class="menu__one">
-                                        <div class="menu__right-title">donut</div>
-                                        <div class="menu__price"><span class="menu__price-dollar">$</span> 2.49</div>
-                                        <div class="menu__right-subtitle"><a href="#!" class="menu__subtitle-link">Order now <img src="../../assets/icons/arrow-right(white).png" class="arrow-right-white" alt="arrow"></a> </div>
+                                    <div class="donut">
+                                        <div class="menu__one">
+                                            <div class="menu__right-title">donut</div>
+                                            <div class="menu__price"><span class="menu__price-dollar">$</span> 2.49</div>
+                                            <div class="menu__right-subtitle"><a href="#!" class="menu__subtitle-link">Order now <img src="../../assets/icons/arrow-right(white).png" class="arrow-right-white" alt="arrow"></a> </div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="donut cake">
-                                    <div class="menu__one">
-                                        <div class="menu__right-title">Cake</div>
-                                        <div class="menu__price"><span class="menu__price-dollar">$</span> 2.10</div>
-                                        <div class="menu__right-subtitle"><a href="#!" class="menu__subtitle-link">Order now <img src="../../assets/icons/arrow-right(white).png" class="arrow-right-white" alt="arrow"></a> </div>
+                                    <div class="donut cake">
+                                        <div class="menu__one">
+                                            <div class="menu__right-title">Cake</div>
+                                            <div class="menu__price"><span class="menu__price-dollar">$</span> 2.10</div>
+                                            <div class="menu__right-subtitle"><a href="#!" class="menu__subtitle-link">Order now <img src="../../assets/icons/arrow-right(white).png" class="arrow-right-white" alt="arrow"></a> </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            <div class="menu__cover"> <!-- slider wrapper -->
+                                <div class="menu__sweets">
+                                    <div class="donut donutions">
+                                        <div class="menu__one">
+                                            <div class="menu__right-title">donutions</div>
+                                            <div class="menu__price"><span class="menu__price-dollar">$</span> 2.20</div>
+                                            <div class="menu__right-subtitle"><a href="#!" class="menu__subtitle-link">Order now <img src="../../assets/icons/arrow-right(white).png" class="arrow-right-white" alt="arrow"></a> </div>
+                                        </div>
+                                    </div>
+                                    <div class="donut cronat">
+                                        <div class="menu__one">
+                                            <div class="menu__right-title">cronat</div>
+                                            <div class="menu__price"><span class="menu__price-dollar">$</span> 2.49</div>
+                                            <div class="menu__right-subtitle"><a href="#!" class="menu__subtitle-link">Order now <img src="../../assets/icons/arrow-right(white).png" class="arrow-right-white" alt="arrow"></a> </div>
+                                        </div>
+                                    </div>
+                                    <div class="donut berliner">
+                                        <div class="menu__one">
+                                            <div class="menu__right-title">berliner</div>
+                                            <div class="menu__price"><span class="menu__price-dollar">$</span> 2.10</div>
+                                            <div class="menu__right-subtitle"><a href="#!" class="menu__subtitle-link">Order now <img src="../../assets/icons/arrow-right(white).png" class="arrow-right-white" alt="arrow"></a> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                             </div>
                         </div>
                         <div class="target target-5">
                             <div class="menu__cover">
-                                <div class="steak">
-                                    <div class="menu__one">
-                                        <div class="menu__right-title">steak</div>
-                                        <div class="menu__price"><span class="menu__price-dollar">$</span> 8.30</div>
-                                        <div class="menu__right-subtitle"><a href="#!" class="menu__subtitle-link">Order now <img src="../../assets/icons/arrow-right(white).png" class="arrow-right-white" alt="arrow"></a> </div>
+                                <div class="menu__meat">
+                                    <div class="steak">
+                                        <div class="menu__one">
+                                            <div class="menu__right-title">steak</div>
+                                            <div class="menu__price"><span class="menu__price-dollar">$</span> 8.30</div>
+                                            <div class="menu__right-subtitle"><a href="#!" class="menu__subtitle-link">Order now <img src="../../assets/icons/arrow-right(white).png" class="arrow-right-white" alt="arrow"></a> </div>
+                                        </div>
+                                    </div>
+                                    <div class="steak fried__fish">
+                                        <div class="menu__one">
+                                            <div class="menu__right-title">fried fish</div>
+                                            <div class="menu__price"><span class="menu__price-dollar">$</span> 7.50</div>
+                                            <div class="menu__right-subtitle"><a href="#!" class="menu__subtitle-link">Order now <img src="../../assets/icons/arrow-right(white).png" class="arrow-right-white" alt="arrow"></a> </div>
+                                        </div>
+                                    </div>
+                                    <div class="steak steak2">
+                                        <div class="menu__one">
+                                            <div class="menu__right-title">steak</div>
+                                            <div class="menu__price"><span class="menu__price-dollar">$</span> 9.99</div>
+                                            <div class="menu__right-subtitle"><a href="#!" class="menu__subtitle-link">Order now <img src="../../assets/icons/arrow-right(white).png" class="arrow-right-white" alt="arrow"></a> </div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="steak fried__fish">
-                                    <div class="menu__one">
-                                        <div class="menu__right-title">fried fish</div>
-                                        <div class="menu__price"><span class="menu__price-dollar">$</span> 7.50</div>
-                                        <div class="menu__right-subtitle"><a href="#!" class="menu__subtitle-link">Order now <img src="../../assets/icons/arrow-right(white).png" class="arrow-right-white" alt="arrow"></a> </div>
+                            </div>
+                            <div class="menu__cover">
+                                <div class="menu__meat">
+                                    <div class="steak gold">
+                                        <div class="menu__one">
+                                            <div class="menu__right-title">gold fish</div>
+                                            <div class="menu__price"><span class="menu__price-dollar">$</span> 8.30</div>
+                                            <div class="menu__right-subtitle"><a href="#!" class="menu__subtitle-link">Order now <img src="../../assets/icons/arrow-right(white).png" class="arrow-right-white" alt="arrow"></a> </div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="steak steak2">
-                                    <div class="menu__one">
-                                        <div class="menu__right-title">steak</div>
-                                        <div class="menu__price"><span class="menu__price-dollar">$</span> 9.99</div>
-                                        <div class="menu__right-subtitle"><a href="#!" class="menu__subtitle-link">Order now <img src="../../assets/icons/arrow-right(white).png" class="arrow-right-white" alt="arrow"></a> </div>
+                                    <div class="steak meat__wine">
+                                        <div class="menu__one">
+                                            <div class="menu__right-title">meat in wine</div>
+                                            <div class="menu__price"><span class="menu__price-dollar">$</span> 7.50</div>
+                                            <div class="menu__right-subtitle"><a href="#!" class="menu__subtitle-link">Order now <img src="../../assets/icons/arrow-right(white).png" class="arrow-right-white" alt="arrow"></a> </div>
+                                        </div>
+                                    </div>
+                                    <div class="steak fish">
+                                        <div class="menu__one">
+                                            <div class="menu__right-title">fried fish</div>
+                                            <div class="menu__price"><span class="menu__price-dollar">$</span> 9.99</div>
+                                            <div class="menu__right-subtitle"><a href="#!" class="menu__subtitle-link">Order now <img src="../../assets/icons/arrow-right(white).png" class="arrow-right-white" alt="arrow"></a> </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -286,50 +424,96 @@
                         what our customer says?
                     </div>
                     <div class="customers_arrows">
-                        <div class="menu__arrow-left"><img src="../../assets/icons/arrow-left.png" class="arrows" alt="left"></div>
-                        <div class="menu__arrow-right"><img src="../../assets/icons/arrow-right.png" class="arrows" alt="right"></div>
+                        <div class="menu__arrow-left prev"><img src="../../assets/icons/arrow-left.png" class="arrows" alt="left"></div>
+                        <div class="menu__arrow-right next"><img src="../../assets/icons/arrow-right.png" class="arrows" alt="right"></div>
                     </div>
                 </div>
-                <div class="customers__reviews">
-                    <div class="customers__review">
-                        <div class="customers__review-text">
-                            These are the best and their name is “FaFo”. Everything is very convenient, beautiful interface, fast and high-quality delivery. FaFo is the best choice!
-                        </div>
-                        <div class="customers__review-data">
-                            <img src="../../assets/icons/robert.png" alt="robert">
-                            <div class="customers__name-star">
-                                <div class="customers__review-name">
-                                    Robert Lopez
+                <div class="customers__reviews">  <!-- slider wrapper -->
+                    <div class="customers__slide">
+                        <div class="customers__review">
+                            <div class="customers__review-text">
+                                These are the best and their name is “FaFo”. Everything is very convenient, beautiful interface, fast and high-quality delivery. FaFo is the best choice!
+                            </div>
+                            <div class="customers__review-data">
+                                <img src="../../assets/icons/robert.png" alt="robert">
+                                <div class="customers__name-star">
+                                    <div class="customers__review-name">
+                                        Robert Lopez
+                                    </div>
+                                    <img src="../../assets/icons/star.png" alt="star">
                                 </div>
-                                <img src="../../assets/icons/star.png" alt="star">
+                            </div>
+                        </div>
+                        <div class="customers__review">
+                            <div class="customers__review-text">
+                                These are the best and their name is “FaFo”. Everything is very convenient, beautiful interface, fast and high-quality delivery. FaFo is the best choice!
+                            </div>
+                            <div class="customers__review-data">
+                                <img src="../../assets/icons/Michael.png" alt="Michael">
+                                <div class="customers__name-star">
+                                    <div class="customers__review-name">
+                                        Michael Anderson
+                                    </div>
+                                    <img src="../../assets/icons/star.png" alt="star">
+                                </div>
+                            </div>
+                        </div>
+                         <div class="customers__review">
+                            <div class="customers__review-text">
+                                These are the best and their name is “FaFo”. Everything is very convenient, beautiful interface, fast and high-quality delivery. FaFo is the best choice!
+                            </div>
+                            <div class="customers__review-data">
+                                <img src="../../assets/icons/Christopher.png" alt="Christopher">
+                                <div class="customers__name-star">
+                                    <div class="customers__review-name">
+                                        Christopher Carroll
+                                    </div>
+                                    <img src="../../assets/icons/star.png" alt="star">
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="customers__review">
-                        <div class="customers__review-text">
-                            These are the best and their name is “FaFo”. Everything is very convenient, beautiful interface, fast and high-quality delivery. FaFo is the best choice!
-                        </div>
-                        <div class="customers__review-data">
-                            <img src="../../assets/icons/Michael.png" alt="Michael">
-                            <div class="customers__name-star">
-                                <div class="customers__review-name">
-                                    Michael Anderson
+                    <div class="customers__slide">
+                        <div class="customers__review">
+                            <div class="customers__review-text">
+                                These are the best and their name is “FaFo”. Everything is very convenient, beautiful interface, fast and high-quality delivery. FaFo is the best choice!
+                            </div>
+                            <div class="customers__review-data">
+                                <img src="../../assets/icons/andrew.png" alt="andrew">
+                                <div class="customers__name-star">
+                                    <div class="customers__review-name">
+                                        Andrew Scott
+                                    </div>
+                                    <img src="../../assets/icons/star.png" alt="star">
                                 </div>
-                                <img src="../../assets/icons/star.png" alt="star">
                             </div>
                         </div>
-                    </div>
-                     <div class="customers__review">
-                        <div class="customers__review-text">
-                            These are the best and their name is “FaFo”. Everything is very convenient, beautiful interface, fast and high-quality delivery. FaFo is the best choice!
-                        </div>
-                        <div class="customers__review-data">
-                            <img src="../../assets/icons/Christopher.png" alt="Christopher">
-                            <div class="customers__name-star">
-                                <div class="customers__review-name">
-                                    Christopher Carroll
+                        <div class="customers__review">
+                            <div class="customers__review-text">
+                                These are the best and their name is “FaFo”. Everything is very convenient, beautiful interface, fast and high-quality delivery. FaFo is the best choice!
+                            </div>
+                            <div class="customers__review-data">
+                                <img src="../../assets/icons/tayler.png" alt="tayler">
+                                <div class="customers__name-star">
+                                    <div class="customers__review-name">
+                                        Tayler Derdan
+                                    </div>
+                                    <img src="../../assets/icons/star.png" alt="star">
                                 </div>
-                                <img src="../../assets/icons/star.png" alt="star">
+                            </div>
+                        </div>
+                         <div class="customers__review">
+                            <div class="customers__review-text">
+                                These are the best and their name is “FaFo”. Everything is very convenient, beautiful interface, fast and high-quality delivery. FaFo is the best choice!
+                            </div>
+                            <div class="customers__review-data">
+                                <img src="../../assets/icons/robertp.png" alt="robert">
+                                <div class="customers__name-star">
+                                    <div class="customers__review-name">
+                                        Robert Paulson
+                                    </div>
+                                    <img src="../../assets/icons/star.png" alt="star">
+                                </div>
                             </div>
                         </div>
                     </div>
