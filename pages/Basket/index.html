@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="icon" href="../../assets/icons/fa-fo.ico">
+    <title>Basket</title>
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header__wrapper">
+                <div class="header__logo">
+                    <a href="../../pages/home/index.html" class="header__logo-link">
+                        <img src="../../assets/about__us/images/logo.svg" alt="fast food" class="header__logo-photo">
+                    </a>
+                </div>
+                <div class="header__nav">
+                    <ul class="header__list">
+                        <li class="header_item">
+                            <a href="../../pages/home/index.html" class="header_link">Why fafo?</a>
+                        </li>
+                        <li class="header_item">
+                            <a href="../../pages/About us/index.html" class="header_link">About us</a>
+                        </li>
+                        <li class="header_item">
+                            <a href="../../pages/Menu/index.html" class="header_link">Menu</a>
+                        </li>
+                        <li class="header_item">
+                            <a href="../../pages/Contact/index.html" class="header_link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header__nav-right">
+                    <ul class="header__list-right">
+                        <li class="header_item">
+                            <div class = "nav-right__search">
+                                <input class="nav-right__search-txt" type="text" name="" placeholder="type to search ">
+                                <a href="#!" class="header_link">
+                                    <img src="../../assets/icons/search.png" alt="search">
+                                </a>
+                            </div>
+                        </li>
+                        <li class="header_item">
+                            <a href="../../pages/Basket/index.html" class="header_link">
+                                <img src="../../assets/icons/basket.png" alt="basket">
+                            </a>
+                        </li>
+                        <li class="header_item">
+                            <a href="../../pages/Login/index.html" class="header_link">
+                                <button class="header_button"><img src="../../assets/icons/login.png" alt="login" class="header_login">Login</button>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <main class="main">
+        <div class="wrapper">
+            <div class="basket__title">
+                shopping cart
+            </div>
+            <div class="basket__left-right">
+                <div class="basket__form-left">
+                    <div class="basket__login">
+                        Login
+                    </div>
+                    <form action="" class="basket__form">
+                        <div class="basket__form-names">
+                            <div class="basket__form-field">
+                                <div class="basket__form-name">
+                                    First Name *
+                                </div>
+                                <input type="text" class="basket__input-name">
+                            </div>
+                            <div class="basket__form-field">
+                                <div class="basket__form-name">
+                                    Last Name *
+                                </div>
+                                <input type="text" class="basket__input-name">
+                            </div>
+                        </div>
+                        <div class="basket__form-names">
+                            <div class="basket__form-field">
+                                <div class="basket__form-name">
+                                    Address *
+                                </div>
+                                <input type="text" class="basket__input-name input-name3">
+                            </div>
+                            <div class="basket__form-field">
+                                <div class="basket__form-name">
+                                    Flat *
+                                </div>
+                                <input type="number" class="basket__input-name input-name4">
+                            </div>
+                        </div>
+                        <div class="basket__form-names">
+                            <div class="basket__form-field">
+                                <div class="basket__form-name">
+                                    City *
+                                </div>
+                                <input type="text" class="basket__input-name">
+                            </div>
+                            <div class="basket__form-field">
+                                <div class="basket__form-name">
+                                    Entrance *
+                                </div>
+                                <input type="number" class="basket__input-name">
+                            </div>
+                        </div>
+                        <div class="basket__form-radio">
+                            <p class="basket__form-radio_title">Address Type *</p>
+                            <div>
+                            <input type="radio" id="radio1" name="contact" value="Home" class="basket__form-input_radio">
+                            <label for="radio1" class="basket__form-label">Home</label>
+                        
+                            <input type="radio" id="radio2" name="contact" value="Office" class="basket__form-input_radio">
+                            <label for="radio2" class="basket__form-label">Office</label>
+                        
+                            <input type="radio" id="radio3" name="contact" value="House outside the city" class="basket__form-input_radio">
+                            <label for="radio3" class="basket__form-label">House outside the city</label>
+                            </div>
+                        </div>
+                        <div class="basket__form-radio_two">
+                            <p class="basket__form-radio_title__two">Deliveey time?</p>
+                            <div>
+                            <input type="radio" id="radio4" name="delivery" value="10-15 min" class="basket__form-input_radio__two">
+                            <label for="radio4" class="basket__form-label__two">10-15 min</label>
+                        
+                            <input type="radio" id="radio5" name="delivery" value="20-25 min" class="basket__form-input_radio__two">
+                            <label for="radio5" class="basket__form-label__two">20-25 min</label>
+                        
+                            <input type="radio" id="radio6" name="delivery" value="30-35 min" class="basket__form-input_radio__two">
+                            <label for="radio6" class="basket__form-label__two">30-35 min</label>
+                            </div>
+                        </div> 
+                        <input type= "submit" value="Save and Deliver Here" class="basket__form-button">
+                    </form>
+                </div>
+                <div class="basket__menu-right">
+                    <button class="basket__menu-right__btn">X</button>
+                    <p class="basket__menu">Your order</p>
+                    <div class="basket_line"></div>
+                    <div class="cart">
+
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer__wrapper">
+                <div class="footer_logo">
+                    <a href="../../pages/home/index.html" class="header__logo-link">
+                        <img src="../../assets/about__us/images/logo.svg" alt="fast food" class="header__logo-photo">
+                    </a>
+                    <div class="footer__title">Our job is to filling your tummy with delicious food and with fast delivery.</div>
+                    <div class="footer_nav">
+                        <ul class="footer__list">
+                            <li class="footer_item">
+                                <a href="https://www.instagram.com/" class="footer_links"><img src="../../assets/icons/instagram.png" alt=""></a>
+                            </li>
+                            <li class="footer_item">
+                                <a href="https://www.facebook.com/" class="footer_links"><img src="../../assets/icons/facebook.png" alt=""></a>
+                            </li>
+                            <li class="footer_item">
+                                <a href="https://twitter.com/" class="footer_links"><img src="../../assets/icons/twitter.png" alt=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__fafo">
+                    <ul class="footer__list-fafo">
+                        <li class="footer__item-fafo">
+                            <a href="../../pages/home/index.html" class="footer__links-fafo">Why fafo?</a>
+                        </li>
+                        <li class="footer__item-fafo">
+                            <a href="../../pages/home/index.html#serve" class="footer__links-fafo">What We Server</a>
+                        </li>
+                        <li class="footer__item-fafo">
+                            <a href="../../pages/home/index.html#say" class="footer__links-fafo">What They Say</a>
+                        </li>
+                        <li class="footer__item-fafo">
+                            <a href="../../pages/home/index.html#customers" class="footer__links-fafo">What Our Cust. Says?</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__fafo">
+                    <ul class="footer__list-fafo">
+                        <li class="footer__item-fafo">
+                            <a href="../../pages/About us/index.html" class="footer__links-fafo">About us</a>
+                        </li>
+                        <li class="footer__item-fafo">
+                            <a href="../../pages/About us/index.html#Benefits" class="footer__links-fafo">Benefits of FaFO</a>
+                        </li>
+                        <li class="footer__item-fafo">
+                            <a href="../../pages/About us/index.html#team" class="footer__links-fafo">Our Team</a>
+                        </li>
+                        <li class="footer__item-fafo">
+                            <a href="../../pages/About us/index.html#values " class="footer__links-fafo">Our Values</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__fafo">
+                    <ul class="footer__list-fafo">
+                        <li class="footer__item-fafo">
+                            <a href="../../pages/Menu/index.html" class="footer__links-fafo">Menu</a>
+                        </li>
+                        <li class="footer__item-fafo">
+                            <a href="../../pages/Menu/index.html#discounts" class="footer__links-fafo">Discounts</a>
+                        </li>
+                        <li class="footer__item-fafo">
+                            <a href="../../pages/Menu/index.html#menu" class="footer__links-fafo">All Menu</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__fafo">
+                    <ul class="footer__list-fafo">
+                        <li class="footer__item-fafo">
+                            <a href="../../pages/Contact/index.html" class="footer__links-fafo">Contact</a>
+                        </li>
+                        <li class="footer__item-fafo">
+                            <a href="../../pages/Contact/index.html#information" class="footer__links-fafo">Contact information</a>
+                        </li>
+                        <li class="footer__item-fafo">
+                            <a href="../../pages/Contact/index.html#information" class="footer__links-fafo">Contact form</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>   
+        </div>     
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
