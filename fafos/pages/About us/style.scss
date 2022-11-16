@@ -83,6 +83,24 @@ body{
         }
     }
 }
+.nav-right__search:hover > .nav-right__search-txt{
+    width: 240px;
+    border-radius: 50px;
+    background: #F9F9F9;
+    padding-left: 5px;
+}
+.nav-right__search-txt{
+    position: absolute;
+    right: 21%;
+    border:none;
+    background: none;
+    outline:none;
+    color: $color-black;
+    font-size:20px;
+    transition: 0.4s;
+    line-height: 27px;
+    width: 0;
+}
 /* header style end  */
 
 /* fafo style start  */
@@ -108,7 +126,6 @@ body{
     flex-wrap: wrap;
     gap: 20px;
 }
-
 .fafo__images-two{
     display: flex;
     flex-wrap: wrap;
@@ -208,7 +225,7 @@ body{
     text-transform: uppercase;
     color: $color-red;
     text-align: center;
-    margin-bottom: 45px;
+    margin-bottom: 30px;
 }
 .team__wrapper{
     max-width: 280px;
@@ -242,15 +259,28 @@ body{
     width: 134px;
 }
 .team__wrapper-full{
+    overflow: hidden;
+    position: relative;
+    height: 350px;
+    max-width: 1580px;
+    display: flex;
+    flex-wrap: wrap;  
+}
+.team__slider{
+    position: absolute;
     display: flex;
     gap: 20px;
-    
-}
-.team__wrapper:last-child{
+    flex-wrap: wrap;
+    width: 3940px;
     overflow: hidden;
+    transition: all ease 2s;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    /* padding-right: 10px; */
 }
 .team__input{
-    margin-top: 44px;
+    margin-top: 14px;
 }
 .team__input-range{
     -webkit-appearance: none;

@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
 html {
   scroll-behavior: smooth;
@@ -75,6 +74,26 @@ body {
   position: relative;
   top: 2px;
   padding-right: 5px;
+}
+
+.nav-right__search:hover > .nav-right__search-txt {
+  width: 240px;
+  border-radius: 50px;
+  background: #F9F9F9;
+  padding-left: 5px;
+}
+
+.nav-right__search-txt {
+  position: absolute;
+  right: 21%;
+  border: none;
+  background: none;
+  outline: none;
+  color: #353535;
+  font-size: 20px;
+  transition: 0.4s;
+  line-height: 27px;
+  width: 0;
 }
 
 /* header style end  */
@@ -336,6 +355,19 @@ body {
   justify-content: flex-start;
 }
 
+.menu__right {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.menu__japanese, .menu__sweets, .menu__burger, .menu__pizza-slide, .menu__meat {
+  display: none;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
 .menu__cover {
   display: flex;
   flex-wrap: wrap;
@@ -428,6 +460,96 @@ body {
 
 .steak2 {
   background: url(../../assets/images/steak2.png);
+  width: 380px;
+  height: 480px;
+}
+
+.steak__burger {
+  background: url(../../assets/images/steak__burger.png);
+  width: 380px;
+  height: 480px;
+}
+
+.meat {
+  background: url(../../assets/images/meat.png);
+  width: 380px;
+  height: 480px;
+}
+
+.cheese {
+  background: url(../../assets/images/cheesee.png);
+  width: 380px;
+  height: 480px;
+}
+
+.romana {
+  background: url(../../assets/images/romana.png);
+  width: 380px;
+  height: 480px;
+}
+
+.fritta {
+  background: url(../../assets/images/fritta.png);
+  width: 380px;
+  height: 480px;
+}
+
+.palla {
+  background: url(../../assets/images/all-palla.png);
+  width: 380px;
+  height: 480px;
+}
+
+.nigirizushi {
+  background: url(../../assets/images/nigirizushi.png);
+  width: 380px;
+  height: 480px;
+}
+
+.gunkan {
+  background: url(../../assets/images/gunkan.png);
+  width: 380px;
+  height: 480px;
+}
+
+.hosomaki {
+  background: url(../../assets/images/hosomaki.png);
+  width: 380px;
+  height: 480px;
+}
+
+.donutions {
+  background: url(../../assets/images/donutions.png);
+  width: 380px;
+  height: 480px;
+}
+
+.cronat {
+  background: url(../../assets/images/cronat.png);
+  width: 380px;
+  height: 480px;
+}
+
+.berliner {
+  background: url(../../assets/images/berliner.png);
+  width: 380px;
+  height: 480px;
+}
+
+.gold {
+  background: url(../../assets/images/goldfish.png);
+  width: 380px;
+  height: 480px;
+}
+
+.meat__wine {
+  background: url(../../assets/images/meatwine.png);
+  width: 380px;
+  height: 480px;
+}
+
+.fish {
+  background: url(../../assets/images/fried-fish.png);
   width: 380px;
   height: 480px;
 }
@@ -617,9 +739,17 @@ body {
 .customers__reviews {
   flex-direction: row;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   gap: 20px;
   margin-top: 37px;
-  /* ПОСМОТРЕТЬ НАСЧЁТ ОТЗЫВОВ ОВЕРФЛОУ */
+}
+
+.customers__slide {
+  display: none;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
 }
 
 .customers {
